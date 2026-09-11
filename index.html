@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090909" />
+    <meta name="description" content="Autos seleccionados y comercialización automotriz en Piedras Negras, Coahuila." />
+    <title>Ricardo Amaya | Autos que sí se venden</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Ricardo Amaya, inicio">
+        <img src="assets/ra-logo.png" alt="RA" />
+        <span>Ricardo Amaya</span>
+      </a>
+      <button class="menu-button" aria-label="Abrir menú" aria-expanded="false">Menú</button>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#inventario">Inventario</a>
+        <a href="#modelo">Cómo trabajo</a>
+        <a href="#vende-tu-auto">Vende tu auto</a>
+        <a class="nav-cta" href="https://wa.me/528787000250?text=Hola%20Ricardo%2C%20quiero%20informaci%C3%B3n%20sobre%20un%20auto" target="_blank" rel="noreferrer">WhatsApp</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Piedras Negras, Coahuila</p>
+          <h1>Autos que<br />sí se venden.</h1>
+          <p class="hero-text">Presentación clara, atención directa y seguimiento real para encontrar el auto correcto o vender el tuyo.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#inventario">Ver inventario</a>
+            <a class="button button-light" href="#vende-tu-auto">Quiero vender un auto</a>
+          </div>
+        </div>
+        <figure class="hero-image">
+          <img src="assets/silverado.png" alt="Camioneta de demostración del inventario" />
+          <figcaption>Inventario de demostración</figcaption>
+        </figure>
+      </section>
+
+      <section class="inventory section" id="inventario">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selección actual</p>
+            <h2>Inventario</h2>
+          </div>
+          <p>Esta primera versión usa unidades de ejemplo para construir y probar la experiencia.</p>
+        </div>
+        <div class="vehicle-grid">
+          <article class="vehicle-card" data-car="mazda">
+            <button class="card-button" aria-label="Ver detalles del Mazda 3">
+              <img src="assets/mazda-3.png" alt="Mazda 3 blanco" />
+              <div class="vehicle-info">
+                <div><p>2022</p><h3>Mazda 3</h3></div>
+                <strong>$345,000 <small>MXN</small></strong>
+                <span>42,000 km · Automático</span>
+              </div>
+            </button>
+          </article>
+          <article class="vehicle-card" data-car="rav4">
+            <button class="card-button" aria-label="Ver detalles de la Toyota RAV4">
+              <img src="assets/rav4.png" alt="Toyota RAV4 negra" />
+              <div class="vehicle-info">
+                <div><p>2021</p><h3>Toyota RAV4</h3></div>
+                <strong>$439,000 <small>MXN</small></strong>
+                <span>58,000 km · Automática</span>
+              </div>
+            </button>
+          </article>
+          <article class="vehicle-card" data-car="silverado">
+            <button class="card-button" aria-label="Ver detalles de la Chevrolet Silverado">
+              <img src="assets/silverado.png" alt="Chevrolet Silverado negra" />
+              <div class="vehicle-info">
+                <div><p>2020</p><h3>Chevrolet Silverado</h3></div>
+                <strong>$595,000 <small>MXN</small></strong>
+                <span>67,000 km · Automática</span>
+              </div>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section class="business-model section" id="modelo">
+        <div class="model-copy">
+          <p class="eyebrow eyebrow-light">Para lotes e inversionistas</p>
+          <h2>Tú compras los autos.<br />Yo me encargo de venderlos.</h2>
+          <p>Convierto cada unidad en una oferta clara, visible y atendida hasta el cierre.</p>
+          <a class="button button-white" href="https://wa.me/528787000250?text=Hola%20Ricardo%2C%20quiero%20platicar%20sobre%20la%20venta%20de%20mi%20inventario" target="_blank" rel="noreferrer">Platicar del proyecto</a>
+        </div>
+        <ol class="process">
+          <li><span>01</span><div><strong>Contenido</strong><p>Fotos, video y una historia para cada unidad.</p></div></li>
+          <li><span>02</span><div><strong>Publicación</strong><p>Inventario, redes sociales y campañas.</p></div></li>
+          <li><span>03</span><div><strong>Prospectos</strong><p>Atención rápida y calificación de interesados.</p></div></li>
+          <li><span>04</span><div><strong>Seguimiento</strong><p>Pruebas de manejo y conversación constante.</p></div></li>
+          <li><span>05</span><div><strong>Cierre</strong><p>Acompañamiento hasta concretar la venta.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="social-system section">
+        <div class="social-visual"><img src="assets/social-preview.png" alt="Vista del sistema de publicaciones de Ricardo Amaya" /></div>
+        <div class="social-copy">
+          <p class="eyebrow">Más que una publicación</p>
+          <h2>Un sistema para mover inventario.</h2>
+          <p>Cada vehículo aparece con la misma identidad en la página, publicaciones, historias y videos. El cliente reconoce la unidad y encuentra una forma directa de preguntar por ella.</p>
+        </div>
+      </section>
+
+      <section class="sell section" id="vende-tu-auto">
+        <div class="sell-intro">
+          <p class="eyebrow">Consignación y comercialización</p>
+          <h2>¿Quieres vender tu auto?</h2>
+          <p>Déjame los datos básicos. Al enviar, abriremos WhatsApp con tu información lista para revisar.</p>
+        </div>
+        <form id="sell-form">
+          <label>Nombre<input name="name" autocomplete="name" required placeholder="Tu nombre" /></label>
+          <label>Auto<input name="car" required placeholder="Marca, modelo y año" /></label>
+          <label>Precio esperado<input name="price" inputmode="numeric" placeholder="$" /></label>
+          <label class="full">Cuéntame del auto<textarea name="details" rows="4" placeholder="Kilometraje, versión y estado general"></textarea></label>
+          <button class="button button-dark full" type="submit">Enviar por WhatsApp</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="brand footer-brand"><img src="assets/ra-logo.png" alt="RA" /><span>Ricardo Amaya</span></div>
+      <p>Autos que sí se venden.</p>
+      <div><a href="tel:+528787000250">878 700 0250</a><a href="mailto:info@ricardoamaya.com">info@ricardoamaya.com</a></div>
+    </footer>
+
+    <dialog id="vehicle-dialog">
+      <button class="dialog-close" aria-label="Cerrar">×</button>
+      <img id="dialog-image" alt="" />
+      <div class="dialog-content">
+        <p id="dialog-year" class="eyebrow"></p>
+        <h2 id="dialog-name"></h2>
+        <strong id="dialog-price"></strong>
+        <p id="dialog-details"></p>
+        <a id="dialog-whatsapp" class="button button-dark" target="_blank" rel="noreferrer">Preguntar por WhatsApp</a>
+      </div>
+    </dialog>
+    <script src="app.js"></script>
+  </body>
+</html>
