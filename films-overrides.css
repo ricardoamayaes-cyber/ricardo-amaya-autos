@@ -1,0 +1,29 @@
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 390px));
+  justify-content: center;
+  gap: clamp(24px, 5vw, 70px);
+}
+
+.project-visual {
+  aspect-ratio: 9 / 16;
+  padding: clamp(24px, 3vw, 38px);
+}
+
+.project-visual strong {
+  font-size: clamp(2.2rem, 4vw, 3.7rem);
+}
+
+.project-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  background: #0b0d10;
+}
+
+@media (max-width: 700px) {
+  .project-grid {
+    grid-template-columns: minmax(250px, 390px);
+  }
+}
