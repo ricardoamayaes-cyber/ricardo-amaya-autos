@@ -1,3 +1,32 @@
+:root {
+  --military-green: #4b5320;
+  --military-green-dark: #3b4219;
+}
+
+.nav-cta,
+.contact .button-dark {
+  background: var(--military-green);
+  border-color: var(--military-green);
+}
+
+.nav-cta:hover,
+.contact .button-dark:hover {
+  background: var(--military-green-dark);
+  border-color: var(--military-green-dark);
+}
+
+.projects .eyebrow,
+.services .eyebrow,
+.packages .eyebrow,
+.contact .eyebrow {
+  color: var(--military-green);
+}
+
+.package-grid .featured {
+  background: var(--military-green);
+  border-color: var(--military-green);
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(260px, 390px));
